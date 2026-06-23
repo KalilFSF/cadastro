@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:revisao/pages/tela_Logar.dart';
-import 'package:revisao/pages/tela_Revisao.dart';
+import 'package:revisao/pages/tela_Inicio.dart';
 
 class TelaCadastrar extends StatefulWidget {
   const TelaCadastrar({super.key});
@@ -166,7 +166,7 @@ class _TelaCadastrarState extends State<TelaCadastrar> {
                       Navigator.push(
                         context,
                         MaterialPageRoute(
-                          builder: (context) => const TelaRevisao(),
+                          builder: (context) => const TelaInicio(),
                         ),
                       );
                     }
@@ -180,7 +180,7 @@ class _TelaCadastrarState extends State<TelaCadastrar> {
                     context, //indica onde estamos no app
                     MaterialPageRoute(
                       // Cria rota para nova tela
-                      builder: (context) => const TelaRevisao(),
+                      builder: (context) => const TelaInicio(),
                       //builder -- informa qual sera a tela aberta
                     ),
                   );

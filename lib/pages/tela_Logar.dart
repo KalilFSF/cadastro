@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:revisao/pages/tela_Revisao.dart';
+import 'package:revisao/pages/tela_Inicio.dart';
 import 'package:revisao/pages/tela_Cadastrar.dart';
 
 class TelaLogar extends StatefulWidget {
@@ -133,7 +133,7 @@ class _TelaLogarState extends State<TelaLogar> {
                       Navigator.push(
                         context,
                         MaterialPageRoute(
-                          builder: (context) => const TelaRevisao(),
+                          builder: (context) => const TelaInicio(),
                         ),
                       );
                     }
